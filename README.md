@@ -1,0 +1,1 @@
+This project is my portfolio website intended for display purposes to show case my skills and projects.
