@@ -11,6 +11,7 @@ html{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    width: 100vw;
     padding: var(--section-padding);
     background-color: var(--color-federal-blue);
     color: var(--color-white);
@@ -206,6 +207,7 @@ div[class^="icon-"]:hover{
 */
 .footer-section{
     display: block;
+    width: 100vw;
     background-color: var(--color-federal-blue);
     color: var(--color-white);
     margin-top: var(--section-margin);
@@ -219,6 +221,7 @@ div[class^="icon-"]:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 100vw;
     align-items: flex-end;
 }
 .footer-section a svg:hover {
