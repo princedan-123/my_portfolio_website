@@ -1,0 +1,239 @@
+html{
+    scroll-behavior: smooth;
+    font-family: 'Roboto',Arial, sans-serif;
+}
+
+/*Nav
+====================
+*/
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: var(--section-padding);
+    background-color: var(--color-federal-blue);
+    color: var(--color-white);
+}
+.nav-items{
+    padding: var(--section-padding);
+    text-align: center;
+    font-weight: var(--font-medium-bold);
+}
+a:hover{
+    text-decoration: underline;
+}
+/*Header
+====================
+*/
+.nav-header{
+    width: 100%;
+}
+/*About-section
+====================
+*/
+.about-section{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: var(--section-margin);
+    text-align: center;
+}
+.about-item{
+    padding: var(--section-padding);
+    margin-top: var(--section-margin);
+}
+.about-me-image picture img{
+    border-radius: 1.5rem;
+}
+
+/*Skills section
+====================
+*/
+.skills-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: var(--section-margin) auto;
+    padding: var(--section-padding);
+
+}
+.skill-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--flex-gap);
+}
+.skills-section [class^="devicon-"] {
+    font-size: 50px;   
+}
+div[class^="icon-"]:hover{
+    transform: scale(1.2);
+}
+.skill-name:hover{
+    transform: scale(1.2);
+    font-style: italic;
+}
+.skill-header{
+    margin-bottom: 2rem;
+}
+.skill-statement{
+    text-align: center;
+    max-width: 100vw;
+    margin-bottom: 2rem;
+}
+.devicon-python-plain {
+    color: #3776AB;
+}
+
+.devicon-bash-plain {
+    color: #4EAA25;
+}
+
+.devicon-c-plain {
+    color: #00599C;
+}
+
+.devicon-javascript-plain {
+    color: #F7DF1E;
+}
+
+.devicon-nodejs-plain {
+    color: #339933;
+}
+
+.devicon-express-original {
+    color: #000000;
+}
+
+.devicon-mysql-plain {
+    color: #00758F;
+}
+
+.devicon-mongodb-plain {
+    color: #47A248;
+}
+
+.devicon-git-plain {
+    color: #F05032;
+}
+
+.devicon-github-original {
+    color: #181717;
+}
+.devicon-html5-plain {
+    color: #E34F26;
+}
+
+.devicon-css3-plain {
+    color: #1572B6;
+}
+
+.devicon-vim-plain {
+    color: #199F4B;
+}
+
+.devicon-redis-plain {
+    color: #D82C20;
+}
+
+/*Project section
+===================
+*/
+.projects-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: var(--section-margin);
+    padding: var(--section-padding);
+}
+.projects-section a{
+    background-color: var(--color-federal-blue);
+    color: var(--color-white);
+    padding: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: var(--nav-border-radius);
+}
+.project-header{
+    padding: var(--section-padding);
+    text-align: center;
+}
+.project-description{
+    margin-bottom: var(--section-margin);
+    padding: var(--section-padding);
+}
+.project-scope{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.project-stack{
+    font-size: 20px;
+}
+.project-stack h6{
+    padding: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*Article section
+=================
+*/
+.article-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: var(--section-margin);
+    padding: var(--section-padding);
+    gap: var(--flex-gap);
+}
+
+.article-section a{
+    background-color: var(--color-federal-blue);
+    color: var(--color-white);
+    padding: 5px;
+    border-radius: var(--nav-border-radius);
+}
+
+/*Footer section
+==================
+*/
+.footer-section{
+    display: block;
+    background-color: var(--color-federal-blue);
+    color: var(--color-white);
+    margin-top: var(--section-margin);
+    padding: var(--section-padding);
+}
+.footer-section .reach-out{
+    text-align: center;
+    padding: var(--content-padding);
+}
+.contact-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.footer-section a svg:hover {
+    transform: scale(1.3);
+}
+/*Custom properties
+==================
+*/
+:root{
+    --section-margin: 1.5rem;
+    --section-padding: 1.5rem;
+    --content-padding: 0.13rem;
+    --color-federal-blue: #03045E;
+    --color-white: #fff;
+    --font-medium-bold: 600;
+    --nav-border-radius: 5px;
+    --flex-gap:1.5rem;
+}
